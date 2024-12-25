@@ -15,7 +15,7 @@ Our main objective was to determine which variables best predict these outcomes 
 
 ---
 
-## 2. Methodology
+## 2. Methods
 
 ### 2.1 Exploratory Analysis
 - Inspected missing data using visualizations (`vis_miss`, `gg_miss_var`).
@@ -48,7 +48,7 @@ We applied three main strategies to identify important features:
 
 ---
 
-## 3. Key Results
+## 3. Results
 
 ### 3.1 Survival Status
 
@@ -61,8 +61,6 @@ We applied three main strategies to identify important features:
 - **Model Comparison**  
   - **Logistic Regression**: ~94.44% accuracy  
   - **Random Forest**: ~94.44% accuracy (before and after tuning)
-
-- **Best Model**  
   - **Logistic Regression** remained the best choice in our comparison, even after Random Forest tuning, due to consistent predictive performance and model interpretability.
 
 ### 3.2 Survival Time
@@ -99,7 +97,7 @@ We applied three main strategies to identify important features:
 
 ---
 
-## 4. Interpretation and Conclusions
+## 4. Analysis 
 
 1. **Survival Status** depends primarily on:
    - *Relapse*, *extcGvHD*, *Survival Time*, and *Txpostrelapse*
@@ -111,17 +109,14 @@ We applied three main strategies to identify important features:
    - **CD34+ dosage** surfaced as a significant predictor of survival time but does not alone guarantee survival.
 
 3. **Interaction Between Outcomes**  
-   - *Survival Status* and *Survival Time* are interdependent (each appeared in the other’s final model).
+   - *Survival Status* and *Survival Time* are interdependent.
    - Only *extcGvHD* was shared as a top predictor across both final models.
 
-4. **Potential Insight**  
-   - While higher **CD34+ dosage** may prolong survival time, it does not unequivocally ensure survival status.
 
 ---
 
-## 5. Final Takeaways
-
-- For **categorical** survival status predictions, **Logistic Regression** is recommended.
-- For **continuous** survival time predictions, **Random Forest** is most effective.
-- Future research can explore additional clinical covariates and alternative machine learning algorithms (e.g., gradient boosting, neural networks) for further improvements.
+## 5. Conclusion
+- While higher **CD34+ dosage** may prolong survival time, it does not unequivocally ensure survival status.
+- For categorical survival status predictions, Logistic Regression is recommended.
+- For continuous survival time predictions, Random Forest is most effective.
 - The hypothesis that higher CD34+ cell dosage extends survival time is partly supported by the results, though not conclusively linked to improved survival status.
