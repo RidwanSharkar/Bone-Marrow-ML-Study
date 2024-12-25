@@ -1,11 +1,15 @@
 # UCI Bone Marrow Transplant Study
-
 **Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children)
-<img width="964" alt="Screenshot 2024-12-25 at 12 51 31 AM" src="https://github.com/user-attachments/assets/59267e0b-9334-46ed-a3dc-ee7268ca20d0" />
 
 ---
 
 ## 1. Overview
+“This data set describes pediatric patients with several hematolic disease, who were subject
+to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine). This
+dataset has 187 observations and 36 features.
+
+<img width="964" alt="Screenshot 2024-12-25 at 12 51 31 AM" src="https://github.com/user-attachments/assets/584d828a-1030-466a-90eb-21b870241db6" />
+
 
 We analyzed the **UCI Bone Marrow** dataset to predict two key outcomes:
 
