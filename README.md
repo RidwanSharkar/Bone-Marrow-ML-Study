@@ -22,10 +22,10 @@ Our main objective was to determine which variables best predict these outcomes 
 - Examined correlations (`corrplot`) and outliers using the IQR rule.
 - Explored distributions via histograms, density plots, and scatterplot matrices.
 
-**Correlation Matrix:**
+**Correlation Matrix:** <br>
 <img width="505" alt="Screenshot 2024-12-25 at 12 53 39 AM" src="https://github.com/user-attachments/assets/db075630-5f9c-42d8-bcfe-b5872b980fc0" />
 
-**Scatterplot Matrix:**
+**Scatterplot Matrix:** <br> 
 <img width="991" alt="Screenshot 2024-12-25 at 12 55 17 AM" src="https://github.com/user-attachments/assets/ab731b3c-68ff-4c03-86fa-2bdc3b46df35" />
 
 ### 2.2 Modeling Approaches
