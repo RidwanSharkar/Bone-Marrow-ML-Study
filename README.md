@@ -1,6 +1,7 @@
 # UCI Bone Marrow Transplant Study
 
 **Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children)
+<img width="964" alt="Screenshot 2024-12-25 at 12 51 31 AM" src="https://github.com/user-attachments/assets/59267e0b-9334-46ed-a3dc-ee7268ca20d0" />
 
 ---
 
@@ -22,6 +23,12 @@ Our main objective was to determine which variables best predict these outcomes 
 - Examined correlations (`corrplot`) and outliers using the IQR rule.
 - Explored distributions via histograms, density plots, and scatterplot matrices.
 
+- Correlation Matrix:
+<img width="505" alt="Screenshot 2024-12-25 at 12 53 39 AM" src="https://github.com/user-attachments/assets/db075630-5f9c-42d8-bcfe-b5872b980fc0" />
+
+- Scatterplot Matrix:
+<img width="991" alt="Screenshot 2024-12-25 at 12 55 17 AM" src="https://github.com/user-attachments/assets/ab731b3c-68ff-4c03-86fa-2bdc3b46df35" />
+
 ### 2.2 Modeling Approaches
 
 1. **Survival Status (Classification)**
@@ -38,6 +45,7 @@ We applied three main strategies to identify important features:
 1. **Stepwise Selection** (using AIC-based forward/backward selection)  
 2. **Lasso Regularization** (to shrink less important coefficients to zero)  
 3. **Random Forest Feature Importance** (ranking variables by mean decrease in node purity)
+
 
 ---
 
