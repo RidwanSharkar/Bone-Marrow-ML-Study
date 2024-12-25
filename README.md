@@ -8,8 +8,7 @@
 to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine). This
 dataset has 187 observations and 36 features.
 
-<img width="964" alt="Screenshot 2024-12-25 at 12 51 31 AM" src="https://github.com/user-attachments/assets/584d828a-1030-466a-90eb-21b870241db6" />
-
+<img width="964" alt="Screenshot 2024-12-25 at 12 51 31 AM" src="https://github.com/user-attachments/assets/7bccfe69-0feb-4e8b-9048-92d830b7df1e" />
 
 We analyzed the **UCI Bone Marrow** dataset to predict two key outcomes:
 
