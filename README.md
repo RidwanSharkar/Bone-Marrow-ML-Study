@@ -1,12 +1,12 @@
-# UCI Bone Marrow Transplant Study
+# UC-Irvine Bone Marrow Transplant Study
 “This data set describes pediatric patients with several hematolic disease, who were subject to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine)
 
 ## 1. Overview
-**Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children) with 187 observations and 36 features.
+**Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children) (187 observations x 36 features)
 
 <img width="997" alt="Screenshot 2024-12-25 at 1 00 11 AM" src="https://github.com/user-attachments/assets/9a499ecc-f586-4137-b188-0916f022d3e2" />
 
-We analyzed the **UCI Bone Marrow** dataset to predict two key outcomes:
+UCI Bone Marrow dataset was analyzed to predict two key outcomes:
 
 - **Survival Status** (categorical)  
 - **Survival Time** (continuous)
@@ -20,7 +20,7 @@ Our main objective was to determine which variables best predict these outcomes 
 ### 2.1 Exploratory Analysis
 - Inspected missing data using visualizations (`vis_miss`, `gg_miss_var`).
 - Examined correlations (`corrplot`) and outliers using the IQR rule.
-- Explored distributions via histograms, density plots, and scatterplot matrices.
+- Explored distributions via histograms, density plots, and scatterplot matrices:
 
 **Correlation Matrix:** <br>
 <img width="505" alt="Screenshot 2024-12-25 at 12 53 39 AM" src="https://github.com/user-attachments/assets/db075630-5f9c-42d8-bcfe-b5872b980fc0" />
@@ -40,7 +40,7 @@ Our main objective was to determine which variables best predict these outcomes 
    - Random Forest
 
 ### 2.3 Variable Selection
-We applied three main strategies to identify important features:
+Three main strategies were used to identify important features:
 1. **Stepwise Selection** (using AIC-based forward/backward selection)  
 2. **Lasso Regularization** (to shrink less important coefficients to zero)  
 3. **Random Forest Feature Importance** (ranking variables by mean decrease in node purity)
@@ -60,7 +60,7 @@ We applied three main strategies to identify important features:
 
 - **Model Comparison**  
   - **Logistic Regression**: ~94.44% accuracy  
-  - **Random Forest**: ~94.44% accuracy (before and after tuning)
+  - **Random Forest**: ~94.44% accuracy (rounded before and after tuning)
   - **Logistic Regression** remained the best choice in our comparison, even after Random Forest tuning, due to consistent predictive performance and model interpretability.
 
 ### 3.2 Survival Time
@@ -93,7 +93,7 @@ We applied three main strategies to identify important features:
     - AIC: 2815.03  
 
 - **Best Model**  
-  - **Random Forest** outperformed other models with the highest R-squared and lowest RMSE. It indicates that Random Forest is the most robust regressor for predicting survival time.
+  - **Random Forest** outperformed other models with the highest R-squared and lowest RMSE, indicating that Random Forest is the most robust regressor for predicting survival time.
 
 ---
 
@@ -117,6 +117,5 @@ We applied three main strategies to identify important features:
 
 ## 5. Conclusion
 - While higher **CD34+ dosage** may prolong survival time, it does not unequivocally ensure survival status.
-- For categorical survival status predictions, Logistic Regression is recommended.
-- For continuous survival time predictions, Random Forest is most effective.
-- The hypothesis that higher CD34+ cell dosage extends survival time is partly supported by the results, though not conclusively linked to improved survival status.
+- For categorical survival status predictions, Logistic Regression is recommended, while for continuous survival time predictions, Random Forest is most effective.
+- The hypothesis that higher CD34+ cell dosage extends survival time is partially supported by the results, though not conclusively linked to improved survival status.
