@@ -1,8 +1,8 @@
 # UC-Irvine Bone Marrow Transplant Study
-“This data set describes pediatric patients with several hematolic disease, who were subject to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine). 
+“This dataset describes pediatric patients with several hematolic disease, who were subject to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine). 
 
 ## 1. Overview
-CD34+ cells, also known as hematopoietic stem cells (HSCs), primarily serve the purpose of self-renewal and producing mature blood cells, including erythrocytes, leukocytes, platelets, and lymphocytes. As the source of all blood lineages, CD34+ T cells are critical in hematopoietic stem cell transplantation (HSCT) as they play a central role in the post-transplantation immune environment. In pediatric HSCT studies, CD34+ T cell dynamics help evaluate immune recovery and treatment efficacy; this study aims to highlight the synergy between immune function and CD34+ stem cell transplantation outcomes. 
+CD34+ cells, also known as hematopoietic stem cells (HSCs), primarily serve the purpose of self-renewal and producing mature blood cells, including erythrocytes, leukocytes, platelets, and lymphocytes. As the source of all blood lineages, CD34+ T cells are critical in hematopoietic stem cell transplantation (HSCT) as they play a central role in governing the immune environment post-transplantation. In pediatric HSCT studies, CD34+ T cell dynamics help evaluate immune recovery and treatment efficacy; this study aims to highlight the synergy between immune function and CD34+ stem cell transplantation outcomes. 
 
 **Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children) (187 observations x 36 features)
 
