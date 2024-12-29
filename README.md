@@ -1,7 +1,9 @@
 # UC-Irvine Bone Marrow Transplant Study
-“This data set describes pediatric patients with several hematolic disease, who were subject to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine)
+“This data set describes pediatric patients with several hematolic disease, who were subject to the unmanipulated allogeneic unrelated donor hematopoietic stem cell.” (UC Irvine). 
 
 ## 1. Overview
+CD34+ cells, also known as hematopoietic stem cells (HSCs), are a type of cell that have the CD34 protein on their surface. CD34 is a transmembrane phosphoglycoprotein protein encoded by the CD34 gene in humans. The function of CD34+ cells are to self-renew and produce mature blood cells, such as erythrocytes, leukocytes, platelets, and lymphocytes. CD34+ cells compose roughly 1-5% of total T cells found in bone marrow as well as near endothelial & vascular tissue, and is generally used in cell-based therapies, oncology research, transplant & regenerative medicine studies. 
+
 **Dataset Source**: [UCI Bone Marrow Transplant Children](https://archive.ics.uci.edu/dataset/565/bone+marrow+transplant+children) (187 observations x 36 features)
 
 <img width="997" alt="Screenshot 2024-12-25 at 1 00 11 AM" src="https://github.com/user-attachments/assets/9a499ecc-f586-4137-b188-0916f022d3e2" />
